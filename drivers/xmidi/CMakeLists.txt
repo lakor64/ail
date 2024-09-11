@@ -1,0 +1,5 @@
+add_subdirectory(adlib)
+add_subdirectory(roland401)
+add_subdirectory(sb)
+add_subdirectory(speaker)
+add_subdirectory(yamaha)

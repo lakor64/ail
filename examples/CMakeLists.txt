@@ -1,0 +1,11 @@
+function(one_example FILENAME)
+    string(TOLOWER ${FILENAME} FILETARGET)
+    add_executable(${FILETARGET} ${FILENAME}.C)
+    target_link_libraries(${FILETARGET} ail32)
+    target_compile_definitions(${FILETARGET} PRIVATE -D_CRT_SECURE_NO_WARNINGS=1)
+endfunction()
+
+one_example(MIX32)
+one_example(STP32)
+one_example(VP32)
+one_example(XP32)
