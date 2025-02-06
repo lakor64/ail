@@ -52,4 +52,4 @@ add_driver(
     ../XMIDI32.ASM
     YAMAHA32.INC
 )
-target_compile_definitions(a32sp2fm PRIVATE -DPAS)
+target_compile_definitions(a32sp2fm PRIVATE -DPASOPL)
